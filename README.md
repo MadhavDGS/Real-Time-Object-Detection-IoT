@@ -100,30 +100,26 @@ Here is an example of object detection output:
 
 Example Output
 
-🔄 Updating the Repository
-If you make changes, update your GitHub repository:
-```sh
-sh
-Copy
-git add .
-git commit -m "Updated project files"
-git push origin main
-```
-📜 License
-This project is MIT licensed.
+![image](https://github.com/user-attachments/assets/98b5d67c-c177-4aca-8d63-90a4528661ec)
 
-🤝 Contributing
+---
+*** License ***
+
+This project is MIT licensed.
+---
+**Contributing**
+
 Contributions are welcome!
 
-Fork the repo.
+- Fork the repo.
+- Create a feature branch.
 
-Create a feature branch.
+- Submit a pull request 🚀.
 
-Submit a pull request 🚀.
+---
 
-📚 References
-YOLOv9 GitHub
+**References**
 
-Roboflow
-
-Telegram Bot API
+- YOLOv9 GitHub
+- Roboflow
+- Telegram Bot API
