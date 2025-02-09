@@ -60,26 +60,28 @@ git clone https://github.com/MadhavDGS/Real-Time-Object-Detection-YOLOv9.git
 cd Real-Time-Object-Detection-YOLOv9
 ```
 ### **2️⃣ Install Dependencies**
-pip install -r requirements.txt
 
+``` pip install -r requirements.txt
+```
 ---
 
-🏗️ Model Training in Google Colab
-Open Google Colab.
+### **Model Training in Google Colab **
 
-Upload and run the yolov9_custom.ipynb notebook.
+- Open Google Colab.
 
-Train the YOLOv9 model with your dataset.
+- Upload and run the yolov9_custom.ipynb notebook.
 
-Download the best.pt model file.
+- Train the YOLOv9 model with your dataset.
 
- Using YOLOv9 for Object Detection
+- Download the best.pt model file.
+
+## ** Using YOLOv9 for Object Detection **
 
 Run Object Detection:
 ```sh
 python detect.py --weights model/best.pt --source path/to/image.jpg
 ```
-View the Processed Image:
+**View the Processed Image:**
 
 The detected objects will be highlighted in the image.
 
@@ -103,7 +105,7 @@ Example Output
 ![image](https://github.com/user-attachments/assets/98b5d67c-c177-4aca-8d63-90a4528661ec)
 
 ---
-*** License ***
+## ** License **
 
 This project is MIT licensed.
 ---
