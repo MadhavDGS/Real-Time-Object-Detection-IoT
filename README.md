@@ -58,7 +58,7 @@ This project implements **real-time object detection** using **YOLOv9** and inte
 ```sh
 git clone https://github.com/MadhavDGS/Real-Time-Object-Detection-YOLOv9.git
 cd Real-Time-Object-Detection-YOLOv9
-
+```
 ### **2️⃣ Install Dependencies**
 pip install -r requirements.txt
 
@@ -76,8 +76,9 @@ Download the best.pt model file.
  Using YOLOv9 for Object Detection
 
 Run Object Detection:
+```sh
 python detect.py --weights model/best.pt --source path/to/image.jpg
-
+```
 View the Processed Image:
 
 The detected objects will be highlighted in the image.
@@ -101,12 +102,13 @@ Example Output
 
 🔄 Updating the Repository
 If you make changes, update your GitHub repository:
-
+```sh
 sh
 Copy
 git add .
 git commit -m "Updated project files"
 git push origin main
+```
 📜 License
 This project is MIT licensed.
 
@@ -125,14 +127,3 @@ YOLOv9 GitHub
 Roboflow
 
 Telegram Bot API
-
-✅ Final Steps
-Copy the above text and save it as README.md inside your repo.
-
-Push it to GitHub using:
-
-sh
-Copy
-git add README.md
-git commit -m "Added README file with complete documentation"
-git push origin main
