@@ -1,21 +1,36 @@
 # Real-Time Object Detection for IoT Devices
 
-This project implements real-time object detection using YOLOv9, integrated with Telegram bots for IoT devices.
+![GitHub repo size](https://img.shields.io/github/repo-size/MadhavDGS/Real-Time-Object-Detection-YOLOv9)
+![GitHub last commit](https://img.shields.io/github/last-commit/MadhavDGS/Real-Time-Object-Detection-YOLOv9)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![YOLOv9](https://img.shields.io/badge/YOLOv9-Object%20Detection-green)
 
-## Features
-- Custom YOLOv9 training with Roboflow datasets.
-- Real-time inference via Telegram bot.
-- Modular code for training, inference, and integration.
+## 📌 **Project Overview**  
+This project implements **real-time object detection** using **YOLOv9** and integrates it with a **Telegram bot**.  
+- Users can send an image to a Telegram bot.  
+- The **YOLOv9 model** detects objects and returns a processed image with labels.  
+- Designed for **IoT applications**, security, and automated monitoring.  
 
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/Real-Time-Object-Detection-IoT.git
+---
 
-# Real-Time-Object-Detection-IoT
-Real-Time Object Detection for IoT Devices Using YOLOv9, Roboflow, and Telegram Integration
+## 🎯 **Features**  
+✅ Train **YOLOv9** on a **custom dataset**  
+✅ Use **Google Colab** for training and deployment  
+✅ Telegram bot **accepts images and returns detected objects**  
+✅ Low latency and **real-time detection**  
+✅ Extendable for **new IoT components**  
 
+---
 
+## 🛠️ **Tech Stack**  
+- **Programming Language:** Python 🐍  
+- **Deep Learning Framework:** PyTorch ⚡  
+- **Computer Vision:** OpenCV 👁️  
+- **Model:** YOLOv9 🏆  
+- **Dataset Management:** Roboflow 📊  
+- **Deployment:** Google Colab 🚀  
+- **Messaging API:** Telegram Bot API 📩  
 
-^X
+---
+
 
