@@ -33,25 +33,6 @@ This project implements **real-time object detection** using **YOLOv9** and inte
 
 ---
 
-## 📂 **Folder Structure**
-
-📦 Real-Time-Object-Detection-YOLOv9
-┣ 📂 notebooks
-┃ ┣ 📜 yolov9_custom.ipynb # YOLOv9 training notebook
-┃ ┗ 📜 Telegram_integration_for_YoloV9.ipynb # Telegram bot integration notebook
-┣ 📂 model
-┃ ┗ 📜 best.pt # YOLOv9 trained model file
-┣ 📂 data
-┃ ┗ 📜 dataset_link.txt # Google Drive dataset link
-┣ 📂 outputs
-┃ ┗ 📜 detected_images/ # Folder for processed images from Telegram bot
-┣ 📜 LICENSE # License for open-source usage
-┣ 📜 README.md # Main documentation
-┣ 📜 .gitignore # Ignore unnecessary files
-┗ 📜 requirements.txt # Python dependencies list
-
-
----
 
 ## 📦 **Installation**
 ### **1️⃣ Clone the Repository**
