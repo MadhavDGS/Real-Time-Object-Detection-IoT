@@ -13,7 +13,7 @@ This project implements **real-time object detection** using **YOLOv9** and inte
 
 ---
 
-## 🎯 **Features**  
+##  **Features**  
 ✅ Train **YOLOv9** on a **custom dataset**  
 ✅ Use **Google Colab** for training and deployment  
 ✅ Telegram bot **accepts images and returns detected objects**  
@@ -65,7 +65,7 @@ cd Real-Time-Object-Detection-YOLOv9
 ```
 ---
 
-### **Model Training in Google Colab **
+### **Model Training in Google Colab**
 
 - Open Google Colab.
 
@@ -75,13 +75,13 @@ cd Real-Time-Object-Detection-YOLOv9
 
 - Download the best.pt model file.
 
-## ** Using YOLOv9 for Object Detection **
+## **Using YOLOv9 for Object Detection**
 
 Run Object Detection:
 ```sh
 python detect.py --weights model/best.pt --source path/to/image.jpg
 ```
-**View the Processed Image:**
+## View the Processed Image:
 
 The detected objects will be highlighted in the image.
 
@@ -105,7 +105,7 @@ Example Output
 ![image](https://github.com/user-attachments/assets/98b5d67c-c177-4aca-8d63-90a4528661ec)
 
 ---
-## ** License **
+## **License**
 
 This project is MIT licensed.
 ---
